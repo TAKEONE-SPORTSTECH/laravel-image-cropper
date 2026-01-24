@@ -1,14 +1,17 @@
 {
     "name": "laravel/laravel",
+    "type": "project",
     "repositories": [
         {
             "type": "vcs",
             "url": "https://git.innovator.bh/ghassan/laravel-image-cropper"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
         "takeone/cropper": "dev-main"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
