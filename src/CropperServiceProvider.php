@@ -1,6 +1,6 @@
 <?php
 
-namespace Takeone\Cropper;
+namespace takeone\cropper;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
