@@ -1,6 +1,6 @@
 <?php
 
-namespace takeone\cropper;
+namespace Takeone\Cropper;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
@@ -31,7 +31,7 @@ class CropperServiceProvider extends ServiceProvider
             'middleware' => ['web'],
         ], function () {
             // We use the full absolute namespace here to avoid any "not found" errors
-            Route::post('/image-upload', [\takeone\cropper\Http\Controllers\ImageController::class, 'upload'])->name('image.upload');
+            Route::post('/image-upload', [\Takeone\Cropper\Http\Controllers\ImageController::class, 'upload'])->name('image.upload');
         });
     }
 
